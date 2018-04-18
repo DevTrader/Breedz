@@ -1,0 +1,39 @@
+.ImageDisplay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 998;
+    background-color:rgba(255,255,255,0.9);
+    display: none;
+}
+.ImageDisplay div img{
+    position: fixed;
+    z-index: 999;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.close {
+    position:fixed;
+    top: 10vh;
+    right: 10vw;
+    transition: all 1s;
+}
+
+.close:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.fave {
+    position:fixed;
+    top: 18vh;
+    right: 10vw;
+    transition: all 1s;
+}
+
+.fave:hover {
+    cursor: pointer;
+    color: red;
+}

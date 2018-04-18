@@ -1,0 +1,81 @@
+.Favorites {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 998;
+    background-color:rgba(255,255,255,0.85);
+    display: none;
+}
+.favorites-container{
+    position: fixed;
+    z-index: 999;
+    top: 90px;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.favoritesScroll {
+    display: grid;
+    grid-template-columns:325px 325px 325px; 
+    z-index: 9999;
+    height: 85vh;
+    width: 100vw;
+    left: 50%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.closeFave {
+    position:fixed;
+    top: 5vh;
+    right: 10vw;
+    transition: all 1s;
+}
+
+.closeFave:hover {
+    cursor: pointer;
+    color: red;
+}
+
+
+.faveGridContainer, .favoritesScroll {
+
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: auto;
+    margin: 0 auto;
+  }
+  
+@media only screen and (max-width:1090px) {
+    .faveGridContainer {
+      grid-template-columns:30vw 30vw 30vw; 
+      width: auto;
+  
+    }
+}
+
+.faveGridContent {
+    padding: 10px 0px;
+}
+
+.faveGrid{
+    height: 295px;
+    width: 295px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    grid-gap: 10px;
+    grid-column: 1 / 3;
+}
+
+@media only screen and (max-width: 1090px) {
+    .faveGrid{
+        height: 30vw;
+        width: 30vw;
+    }
+    .faveGridContent {
+        padding: 0;
+    }
+}

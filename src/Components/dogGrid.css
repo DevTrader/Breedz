@@ -1,0 +1,28 @@
+.dogGridcontainer {
+    padding: 10px 0px;
+}
+
+.dogGrid{
+    height: 295px;
+    width: 295px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    grid-gap: 200px;
+    transition: all 0.6s;
+}
+.dogGrid:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    opacity: 0.65;
+}
+
+@media only screen and (max-width: 1090px) {
+    .dogGrid{
+        height: 30vw;
+        width: 30vw;
+    }
+    .dogGridcontainer {
+        padding: 0;
+    }
+}
