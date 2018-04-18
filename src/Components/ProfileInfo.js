@@ -11,14 +11,17 @@ const ProfileInfo = (props) => {
                     <div className='profilePic'><i class="fas fa-smile fa-4x"></i></div>
                     <h2>{props.userName}</h2>
                 </div>
-                <div className='About'>
-                    <h2>About</h2>
-                    <p>Pellentesque nunc lectus, faucibus et rutrum sit amet, vulputate quis leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                </div>
-                <div className='Settings'>
-                    <h2>Account Settings</h2>
+                <div className='extra'>
+                    <div className='About'>
+                        <h2>About</h2>
+                        <p>Pellentesque nunc lectus, faucibus et rutrum sit amet, vulputate quis leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    </div>
+                    <div className='Settings'>
+                        <h2>Account Settings</h2>
 
+                    </div>
                 </div>
+
             </div>
         </div>
     )
