@@ -93,22 +93,22 @@ lp {
   }
   
   #away-left {
-    -webkit-animation: Away-left 1.5s forwards; /* Safari 4+ */
-    -moz-animation:    Away-left 1.5s forwards; /* Fx 5+ */
-    -o-animation:      Away-left 1.5s forwards; /* Opera 12+ */
-    animation:         Away-left 1.5s forwards; /* IE 10+, Fx 29+ */
+    -webkit-animation: Away-left 1.6s forwards; /* Safari 4+ */
+    -moz-animation:    Away-left 1.6s forwards; /* Fx 5+ */
+    -o-animation:      Away-left 1.6s forwards; /* Opera 12+ */
+    animation:         Away-left 1.6s forwards; /* IE 10+, Fx 29+ */
   }
   
   #away-right {
-    -webkit-animation: Away-right 1.5s forwards; /* Safari 4+ */
-    -moz-animation:    Away-right 1.5s forwards; /* Fx 5+ */
-    -o-animation:      Away-right 1.5s forwards; /* Opera 12+ */
-    animation:         Away-right 1.5s forwards; /* IE 10+, Fx 29+ */
+    -webkit-animation: Away-right 1.6s forwards; /* Safari 4+ */
+    -moz-animation:    Away-right 1.6s forwards; /* Fx 5+ */
+    -o-animation:      Away-right 1.6s forwards; /* Opera 12+ */
+    animation:         Away-right 1.6s forwards; /* IE 10+, Fx 29+ */
   }
   
   #opacity {
-    -webkit-animation: opacity 1.5s forwards; /* Safari 4+ */
-    -moz-animation:    opacity 1.5s forwards; /* Fx 5+ */
-    -o-animation:      opacity 1.5s forwards; /* Opera 12+ */
-    animation:         opacity 1.5s forwards; /* IE 10+, Fx 29+ */
+    -webkit-animation: opacity 1.6s forwards; /* Safari 4+ */
+    -moz-animation:    opacity 1.6s forwards; /* Fx 5+ */
+    -o-animation:      opacity 1.6s forwards; /* Opera 12+ */
+    animation:         opacity 1.6s forwards; /* IE 10+, Fx 29+ */
   }

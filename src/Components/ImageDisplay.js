@@ -1,5 +1,6 @@
 import React from 'react';
 import './ImageDisplay.css';
+import './animationGlobal.css';
 
 const ImageDisplay = (props) => {
     return(

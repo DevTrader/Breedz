@@ -1,0 +1,36 @@
+@-webkit-keyframes opacityR {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+
+  @-webkit-keyframes opacityGlobal {
+    from {opacity: 0}
+    to {opacity: 1}
+  }
+
+  @-webkit-keyframes opacityGlobalClose {
+    from {opacity: 1}
+    to {opacity: 0}
+  }
+
+  #opacityR {
+    -webkit-animation: opacityR 1.3s forwards; /* Safari 4+ */
+    -moz-animation:    opacityR 1.3s forwards; /* Fx 5+ */
+    -o-animation:      opacityR 1.3s forwards; /* Opera 12+ */
+    animation:         opacityR 1.3s forwards; /* IE 10+, Fx 29+ */
+  }
+
+  #opacityGlobal {
+    -webkit-animation: opacityGlobal 1.6s forwards; /* Safari 4+ */
+    -moz-animation:    opacityGlobal 1.6s forwards; /* Fx 5+ */
+    -o-animation:      opacityGlobal 1.6s forwards; /* Opera 12+ */
+    animation:         opacityGlobal 1.6s forwards; /* IE 10+, Fx 29+ */
+  }
+
+  #opacityGlobalClose {
+    -webkit-animation: opacityGlobalClose 1.6s forwards; /* Safari 4+ */
+    -moz-animation:    opacityGlobalClose 1.6s forwards; /* Fx 5+ */
+    -o-animation:      opacityGlobalClose 1.6s forwards; /* Opera 12+ */
+    animation:         opacityGlobalClose 1.6s forwards; /* IE 10+, Fx 29+ */
+  }

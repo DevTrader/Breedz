@@ -37,3 +37,12 @@
     cursor: pointer;
     color: red;
 }
+
+@media only screen and (max-width:1090px) {
+    .close {
+        top: 1vh;
+    }
+    .fave {
+        top: 6vh;
+    }
+}
